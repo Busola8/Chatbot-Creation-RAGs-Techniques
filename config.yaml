@@ -1,0 +1,13 @@
+# Configuration for RAG Chatbot
+data_dir: ./data
+vector_store: faiss  # options: faiss, pinecone, chroma
+faiss_index_path: ./embeddings/faiss_index.bin
+embed_model: sentence-transformers/all-MiniLM-L6-v2
+generator_model: google/flan-t5-small
+qa_model: deepset/roberta-base-squad2
+chunk_size: 500
+chunk_overlap: 100
+top_k: 5
+pinecone:
+  api_key: YOUR_PINECONE_API_KEY
+  environment: YOUR_PINECONE_ENV

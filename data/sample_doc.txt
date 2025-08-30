@@ -1,0 +1,4 @@
+This is a sample company document.
+Company Name: Acme Corp
+We provide cloud services and maintain customer data for up to 12 months.
+Contact: support@acme.example.com
